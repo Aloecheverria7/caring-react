@@ -1,0 +1,131 @@
+{
+    "navbar": {
+        "home": "Home",
+        "aboutUs": "About Us",
+        "services": "Services",
+        "partners": "Our Trusted Partners",
+        "careers": "Careers",
+        "contact": "Contact",
+        "callUs": "Call Us Now"
+    },
+    "hero": {
+        "title": "Professional & Compassionate",
+        "titleHighlight": "Home Care",
+        "titleSuffix": "in Rhode Island",
+        "subtitle": "Personalized in-home care tailored to your needs, serving local communities throughout Rhode Island.",
+        "ctaGetStarted": "Get Started",
+        "ctaServices": "Our Services"
+    },
+    "intro": {
+        "heading": "Welcome to Caring Path",
+        "headingHighlight": "Home Health Services",
+        "description": "Your trusted partner for quality home care in Rhode Island. We provide comprehensive, compassionate, and personalized in-home care for seniors and individuals with disabilities so they live comfortably and independently."
+    },
+    "services": {
+        "cna": {
+            "title": "CNA Assistant Services",
+            "description": "Personal care services by certified nursing assistants (CNAs).",
+            "highlight1": "Bathing & grooming assistance",
+            "highlight2": "Mobility & transfer support",
+            "highlight3": "Vital signs monitoring",
+            "cta": "Call Now"
+        },
+        "homemaker": {
+            "title": "Homemaker Services",
+            "description": "Household chores, meal prep, and companionship.",
+            "highlight1": "Light housekeeping",
+            "highlight2": "Meal preparation",
+            "highlight3": "Transportation & errands",
+            "cta": "(401) 270-1681"
+        },
+        "rn": {
+            "title": "RN Supervision",
+            "description": "Care management by registered nurses.",
+            "highlight1": "Medication management",
+            "highlight2": "Wound care",
+            "highlight3": "Care plan coordination",
+            "cta": "Request Consultation"
+        }
+    },
+    "servicesPage": {
+        "heroTitle": "Our Services",
+        "heroSubtitle": "Comprehensive, personalized home health services for seniors and individuals with disabilities across Rhode Island."
+    },
+    "cta": {
+        "text": "to learn more and schedule a free consultation.",
+        "callToday": "Call us today",
+        "button": "Request Consultation"
+    },
+    "about": {
+        "heroTitle": "About Caring Path",
+        "heroHighlight": "Home Health Services",
+        "heroSubtitle": "Helping families feel confident in their choice for compassionate, professional care in Rhode Island.",
+        "missionTitle": "Our Mission",
+        "valuesTitle": "Values",
+        "missionText": "We are dedicated to providing compassionate, personalized in-home care that enhances the independence, dignity, and quality of life for seniors and individuals across Rhode Island.",
+        "whyTitle": "Why Families",
+        "whyHighlight": "Choose Us",
+        "feature1": "Commitment to Dignity",
+        "feature2": "Promoting Independence",
+        "feature3": "Compassionate & Professional Staff",
+        "feature4": "Serving All Rhode Island Communities",
+        "ctaCall": "Call (401) 270-1681",
+        "ctaConsult": "Request Free Consultation"
+    },
+    "partners": {
+        "heroTitle": "Our Trusted Partners",
+        "heroSubtitle": "We collaborate with trusted organizations to ensure the best outcomes for our clients.",
+        "p1": {
+            "name": "Core Bridge Alliance",
+            "desc": "Primary partner dedicated to coordinating comprehensive care support."
+        },
+        "p2": {
+            "name": "Avangelina’s Cleaning Services",
+            "desc": "Providing supplementary and optional cleaning support for our home health clients."
+        }
+    },
+    "careers": {
+        "heroTitle": "Careers at",
+        "heroHighlight": "Caring Path Services",
+        "heroSubtitle": "Are you a compassionate, dedicated professional ready to make a difference? Join Caring Path Home Health Services. Work alongside RN supervision to provide the best care.",
+        "joinTitle": "Join Our Professional Team",
+        "joinText": "We are looking for compassionate professionals. If you are a dedicated caregiver, we want you on our team.",
+        "openPositions": "Open Positions",
+        "job_cna": "Certified Nursing Assistant (CNA)",
+        "job_homemaker": "Homemaker",
+        "job_rn": "Registered Nurse (RN) - Supervision",
+        "callCta": "Call (401) 270-1681",
+        "formTitle": "Apply Now",
+        "formName": "Name",
+        "formEmail": "Email",
+        "formPhone": "Phone",
+        "formMessage": "Short Cover Letter / Message",
+        "formSubmit": "Submit Application",
+        "successMessage": "Thank you! We'll review your application shortly.",
+        "benefit1": "Competitive Pay",
+        "benefit2": "Flexible Scheduling",
+        "benefit3": "RN Supervision Support",
+        "benefit4": "Fulfilling & Rewarding Work"
+    },
+    "contact": {
+        "heroTitle": "Contact Us",
+        "heroSubtitle": "We're here to help. Reach out to Caring Path Home Health Services to schedule a free in-home consultation.",
+        "callTitle": "Call Us Today",
+        "bullet1": "Reliable In-Home Care",
+        "bullet2": "Free Initial Consultation",
+        "bullet3": "Serving All Rhode Island",
+        "formTitle": "Get In Touch",
+        "formName": "Name",
+        "formEmail": "Email",
+        "formPhone": "Phone",
+        "formMessage": "Message",
+        "formSubmit": "Send Message",
+        "hours": "Mon–Fri: 8am–6pm | Sat: 9am–2pm",
+        "successMessage": "Thank you! We'll be in touch shortly."
+    },
+    "footer": {
+        "aboutText": "Providing compassionate, personalized in-home care that enhances the independence and quality of life for our clients throughout Rhode Island.",
+        "quickLinks": "Quick Links",
+        "rightsReserved": "All rights reserved."
+    }
+}
