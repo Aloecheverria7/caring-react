@@ -76,15 +76,23 @@
     },
     "partners": {
         "heroTitle": "Nuestros Socios de Confianza",
-        "heroSubtitle": "Colaboramos con organizaciones de confianza para asegurar los mejores resultados.",
+        "heroSubtitle": "En Caring Path Home Health Services, trabajamos estrechamente con organizaciones de confianza para garantizar que nuestros clientes reciban atención integral, coordinada y de alta calidad más allá de los servicios básicos en el hogar.",
         "p1": {
             "name": "Core Bridge Alliance",
-            "desc": "Socio principal dedicado a coordinar el apoyo de cuidado integral."
+            "tagline": "Apoyo Integral",
+            "companyLabel": "Caring Path Home Health Services",
+            "desc1": "Caring Path Home Health Services se ha asociado con Core Bridge Alliance para fortalecer y ampliar nuestros servicios de cuidado. A través de esta alianza, los clientes obtienen acceso a programas de asistencia alimentaria, apoyo especializado y recursos comunitarios.",
+            "desc2": "Esta colaboración nos permite ofrecer servicios de navegación y coordinación personalizados para abordar necesidades adicionales y promover el bienestar a largo plazo."
         },
         "p2": {
             "name": "Avangelina’s Cleaning Services",
-            "desc": "Brindando apoyo de limpieza complementario y opcional para el cliente."
-        }
+            "tagline": "Un Hogar Limpio Es el Mejor Comienzo",
+            "desc1": "También colaboramos con Avangelina’s Cleaning Services para brindar apoyo de limpieza profunda cuando sea necesario, especialmente antes de que comiencen los servicios de cuidado.",
+            "desc2": "Esto garantiza un ambiente del hogar seguro, cómodo y saludable para nuestros clientes."
+        },
+        "commitment": "En Caring Path, seguimos plenamente comprometidos a brindar atención compasiva, personalizada y digna. Nuestras alianzas existen para mejorar, no reemplazar, la calidad del cuidado que brindamos cada día.",
+        "ctaCall": "Llámanos",
+        "ctaConsult": "Solicitar Consulta Gratuita"
     },
     "careers": {
         "heroTitle": "Empleos en",

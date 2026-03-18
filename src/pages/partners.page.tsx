@@ -1,18 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import { FaHeartbeat, FaHandsHelping } from 'react-icons/fa';
-import type { IconType } from 'react-icons';
-
-interface Partner {
-    id: number;
-    icon: IconType;
-    nameKey: string;
-    descKey: string;
-}
-
-const partners: Partner[] = [
-    { id: 1, icon: FaHeartbeat, nameKey: 'partners.p1.name', descKey: 'partners.p1.desc' },
-    { id: 2, icon: FaHandsHelping, nameKey: 'partners.p2.name', descKey: 'partners.p2.desc' },
-];
+import { MdPhone } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 
 function PartnersPage() {
     const { t } = useTranslation();
@@ -26,16 +14,56 @@ function PartnersPage() {
             </section>
 
             <section className="page-content">
-                <div className="container">
-                    <div className="partners-grid">
-                        {partners.map(({ id, icon: Icon, nameKey, descKey }) => (
-                            <div key={id} className="partner-card">
-                                <span className="partner-icon"><Icon /></span>
-                                <h3>{t(nameKey)}</h3>
-                                <p>{t(descKey)}</p>
+                <div className="container partners-content">
+
+                    {/* Core Bridge Alliance */}
+
+                    <div className="partner-card-block partner-card-block--stacked">
+                        <h3 className="partner-card-inner-title">
+                            {t('partners.p1.name')} <span className="partner-tagline">— {t('partners.p1.tagline')}</span>
+                        </h3>
+                        <div className='partner-card-row'>
+                            <div className="partner-logo-box">
+                                <span>CORE BRIDGE<br />ALLIANCE</span>
                             </div>
-                        ))}
+                            <div className="partner-card-content">
+                                <p>{t('partners.p1.desc1')}</p>
+                                <p>{t('partners.p1.desc2')}</p>
+                            </div>
+                        </div>
                     </div>
+
+                    {/* Avangelina's Cleaning Services */}
+                    <div className="partner-card-block partner-card-block--stacked">
+                        <h3 className="partner-card-inner-title">
+                            {t('partners.p2.name')} <span className="partner-tagline">— {t('partners.p2.tagline')}</span>
+                        </h3>
+                        <div className="partner-card-row">
+                            <div className="partner-card-content">
+                                <p>{t('partners.p2.desc1')}</p>
+                                <p>{t('partners.p2.desc2')}</p>
+                            </div>
+                            <div className="partner-logo-box">
+                                <span>AVANGELINA'S<br />CLEANING<br />SERVICES</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Commitment */}
+                    <p className="partner-commitment">
+                        {t('partners.commitment')}
+                    </p>
+
+                    {/* CTAs */}
+                    <div className="partner-cta-row">
+                        <a href="tel:+14012701681" className="btn primary">
+                            <MdPhone /> {t('partners.ctaCall')}
+                        </a>
+                        <Link to="/contact" className="btn secondary">
+                            {t('partners.ctaConsult')}
+                        </Link>
+                    </div>
+
                 </div>
             </section>
         </>

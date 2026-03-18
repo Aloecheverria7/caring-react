@@ -76,15 +76,23 @@
     },
     "partners": {
         "heroTitle": "Our Trusted Partners",
-        "heroSubtitle": "We collaborate with trusted organizations to ensure the best outcomes for our clients.",
+        "heroSubtitle": "At Caring Path Home Health Services, we work closely with trusted organizations to ensure our clients receive comprehensive, coordinated, and high-quality care beyond basic home services.",
         "p1": {
             "name": "Core Bridge Alliance",
-            "desc": "Primary partner dedicated to coordinating comprehensive care support."
+            "tagline": "Comprehensive Support",
+            "companyLabel": "Caring Path Home Health Services",
+            "desc1": "Caring Path Home Health Services has partnered with Core Bridge Alliance to strengthen and expand our care services. Through this partnership, clients gain access to food assistance programs, specialized support and community resources.",
+            "desc2": "This collaboration allows us to offer personalized navigation and coordination services to address additional needs and promote long-term well-being."
         },
         "p2": {
             "name": "Avangelina’s Cleaning Services",
-            "desc": "Providing supplementary and optional cleaning support for our home health clients."
-        }
+            "tagline": "A Clean Home Is the Best Start",
+            "desc1": "We also collaborate with Avangelina’s Cleaning Services to provide deep cleaning support when needed, especially before care services begin.",
+            "desc2": "This ensures a safe, comfortable, and healthy home environment for our clients."
+        },
+        "commitment": "At Caring Path, we remain fully committed to providing compassionate, personalized, and dignified care. Our partnerships exist to enhance – not replace – the quality of care we deliver every day.",
+        "ctaCall": "Call Us",
+        "ctaConsult": "Request Free Consultation"
     },
     "careers": {
         "heroTitle": "Careers at",
