@@ -34,11 +34,15 @@ function Services() {
                                     <li>{t(`services.${id}.highlight1`)}</li>
                                     <li>{t(`services.${id}.highlight2`)}</li>
                                     <li>{t(`services.${id}.highlight3`)}</li>
+                                    <li>{t(`services.${id}.highlight4`)}</li>
+                                    <li>{t(`services.${id}.highlight5`)}</li>
                                 </ul>
+                                 <p>{t(`services.${id}.footerdescription`)}</p>
                                 <a href="tel:4012701681" className={`btn ${ctaStyle} small`}>
                                     <FaPhone aria-hidden="true" />
                                     {t(`services.${id}.cta`)}
                                 </a>
+                                
                             </div>
                         </div>
                     ))}

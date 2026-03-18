@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import Services from '../components/services.component';
+import AboutFeatures from '../components/about-features.component';
 
 function ServicesPage() {
     const { t } = useTranslation();
@@ -11,8 +12,11 @@ function ServicesPage() {
                     <p>{t('servicesPage.heroSubtitle')}</p>
                 </div>
             </section>
+            
             <Services />
+            <AboutFeatures />
         </>
+        
     );
 }
 

@@ -32,7 +32,8 @@
             "highlight3": "Ligth housekeeping & Laundry",
             "highlight4": "Grocery or pharmacy shopping",
             "highlight5": "Companionship & safety supervision",
-            "cta": "Call Now"
+            "cta": "Call Now",
+            "footerdescription": "All CNA services are suupervised by licensed nurses with evaluations every 60-90 days in accordance with Rhode Island regulations."
         },
         "homemaker": {
             "title": "Homemaker Services",
@@ -42,7 +43,8 @@
             "highlight3": "Meal preparation",
             "highlight4": "Errands and shopping",
             "highlight5": "Maintaining a safe clean home",
-            "cta": "(401) 270-1681"
+            "cta": "(401) 270-1681",
+            "footerdescription": "Ideal for clients who need help at home but do not require personal care."
         },
         "rn": {
             "title": "RN Supervision",
@@ -52,7 +54,8 @@
             "highlight3": "Mandatory client assesments ",
             "highlight4": "Personalized care plans",
             "highlight5": "Ongoing quality control",
-            "cta": "Request Consultation"
+            "cta": "Request Consultation",
+            "footerdescription": "Quality care you can trust, backed by professional nursing supervision."
         }
     },
     "servicesPage": {
