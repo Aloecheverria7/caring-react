@@ -32,6 +32,8 @@ function ServicesHome() {
                                     <li>{t(`services.${id}.highlight1`)}</li>
                                     <li>{t(`services.${id}.highlight2`)}</li>
                                     <li>{t(`services.${id}.highlight3`)}</li>
+                                    <li>{t(`services.${id}.highlight4`)}</li>
+                                    <li>{t(`services.${id}.highlight5`)}</li>
                                 </ul>
                                 <a href="tel:4012701681" className={`btn ${ctaStyle} small`} aria-label={`${label} — call us`}>
                                     <FaPhone aria-hidden="true" />
