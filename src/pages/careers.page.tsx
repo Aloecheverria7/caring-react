@@ -1,12 +1,14 @@
 import { useTranslation } from 'react-i18next';
 import careersPhoto from '../assets/careers-photo.png';
+import servicesBg from '../assets/services-bg.png';
 import { useState, type FormEvent } from 'react';
 import {
     FaMoneyBillWave, FaCalendarAlt, FaGraduationCap, FaHeart,
     FaPhone, FaCheck, FaPaperPlane
 } from 'react-icons/fa';
 import type { IconType } from 'react-icons';
-
+import AboutFeatures from '../components/about-features.component';
+import Carrer from '../components/upload-career.component';
 const benefits: { Icon: IconType; key: string }[] = [
     { Icon: FaMoneyBillWave, key: 'benefit1' },
     { Icon: FaCalendarAlt, key: 'benefit2' },
@@ -39,6 +41,7 @@ function CareersPage() {
                 <div className="careers-hero-img">
                     <img src={careersPhoto} alt="Two Caring Path nurses smiling together in a healthcare facility" />
                 </div>
+                
             </section>
 
             {/* JOIN OUR TEAM */}
@@ -61,6 +64,7 @@ function CareersPage() {
                             <FaPhone aria-hidden="true" style={{ marginRight: 8, verticalAlign: 'middle' }} />
                             {t('careers.callCta')}
                         </a>
+                        
                     </div>
 
                     {/* APPLICATION FORM */}
@@ -102,9 +106,10 @@ function CareersPage() {
                             )}
                         </div>
                     </div>
+                    
                 </div>
             </section>
-
+    <Carrer />  
             {/* BENEFITS */}
             <section className="careers-benefits" aria-label="Employee benefits">
                 <div className="container">
@@ -120,6 +125,8 @@ function CareersPage() {
                     </div>
                 </div>
             </section>
+
+        
         </>
     );
 }

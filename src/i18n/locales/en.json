@@ -23,6 +23,42 @@
         "headingHighlight": "Home Health Services",
         "description": "Your trusted partner for quality home care in Rhode Island. We provide comprehensive, compassionate, and personalized in-home care for seniors and individuals with disabilities so they live comfortably and independently."
     },
+
+
+    "introcareercard": {
+        "heading": "Ready to make a difference?",
+        "headingHighlight": "Apply online today or call us to learn more about joining our team",
+        "description": "Your trusted partner for quality home care in Rhode Island. We provide comprehensive, compassionate, and personalized in-home care for seniors and individuals with disabilities so they live comfortably and independently."
+    },
+      "careercard": {
+        "carreerup": {
+            "title": "Step 1",
+            "description": "Submit your application",
+            "cta": "Apply Now",
+            "footerdescription": "All CNA services are suupervised by licensed nurses with evaluations every 60-90 days in accordance with Rhode Island regulations."
+        },
+        "carrerdoc": {
+            "title": "Step 2",
+            "description": "Upload Certifications & Medical Records",
+           
+            "cta": "Upload Documents",
+            "footerdescription": "Ideal for clients who need help at home but do not require personal care."
+        },
+        "rn": {
+            "title": "RN Supervision",
+            "description": "Quality care you can trustm backed by registered nurses.",
+            "highlight1": "Regular RJ supervision",
+            "highlight2": "Caregiver oversight",
+            "highlight3": "Mandatory client assesments ",
+            "highlight4": "Personalized care plans",
+            "highlight5": "Ongoing quality control",
+            "cta": "Request Consultation",
+            "footerdescription": "Quality care you can trust, backed by professional nursing supervision."
+        }
+    },
+
+
+
     "services": {
         "cna": {
             "title": "CNA Assistant Services",

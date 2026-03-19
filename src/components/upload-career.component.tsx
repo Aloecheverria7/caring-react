@@ -1,22 +1,27 @@
 import { useTranslation } from 'react-i18next';
 import servicesBg from '../assets/services-bg.png';
-import { FaPhone, FaStethoscope, FaHome, FaUserNurse } from 'react-icons/fa';
+import { FaPhone, FaStethoscope, FaHome} from 'react-icons/fa';
 import type { IconType } from 'react-icons';
 
-type ServiceKey = 'cna' | 'homemaker' | 'rn';
+type ServiceKey = 'carreerup' | 'carrerdoc' | 'rn';
 
 const serviceKeys: { id: ServiceKey; Icon: IconType; label: string; ctaStyle: string }[] = [
-    { id: 'cna', Icon: FaStethoscope, label: 'Stethoscope — CNA Services', ctaStyle: 'primary' },
-    { id: 'homemaker', Icon: FaHome, label: 'House — Homemaker Services', ctaStyle: 'secondary' },
-    { id: 'rn', Icon: FaUserNurse, label: 'Nurse — RN Supervision', ctaStyle: 'primary' },
+    { id: 'carreerup', Icon: FaStethoscope, label: 'Stethoscope — CNA Services', ctaStyle: 'primary' },
+    { id: 'carrerdoc', Icon: FaHome, label: 'House — Homemaker Services', ctaStyle: 'secondary' },
 ];
 
-function ServicesHome() {
+function Carrer() {
     const { t } = useTranslation();
 
     return (
-        <section className="services-home-section" id="services" aria-label="Our services">
+        <section className="hero-intro" style={{ padding: '60px 0', background: '#fff', textAlign: 'center' }}>
             <div className="container">
+                
+                 <h2 style={{ fontSize: '32px', color: 'var(--blue)', marginBottom: '15px' }}>{t('introcareercard.heading')}</h2>
+                         <p style={{ fontSize: '18px', maxWidth: '800px', margin: '0 auto', lineHeight: '1.7' }}>
+                    {t('introcareercard.headingHighlight')}
+                </p>
+                    
                 {/* Image fills the rounded container — cards sit on top of it */}
                 <div className="services-bg-wrap">
                     <img src={servicesBg} alt="Providence Rhode Island skyline" className="services-bg-img" />
@@ -26,18 +31,16 @@ function ServicesHome() {
                                 <div className="service-card-home-icon" aria-hidden="true">
                                     <Icon size={44} color="var(--gold)" />
                                 </div>
-                                <h3>{t(`services.${id}.title`)}</h3>
-                                <p>{t(`services.${id}.description`)}</p>
+                                <h3>{t(`careercard.${id}.title`)}</h3>
+                                <p>{t(`careercard.${id}.description`)}</p>
                                 <ul className="service-highlights" aria-label={`${label} highlights`}>
-                                    <li>{t(`services.${id}.highlight1`)}</li>
-                                    <li>{t(`services.${id}.highlight2`)}</li>
-                                    <li>{t(`services.${id}.highlight3`)}</li>
-                                    <li>{t(`services.${id}.highlight4`)}</li>
-                                    <li>{t(`services.${id}.highlight5`)}</li>
+                                   
+                                    <li>{t(`careercard.${id}.description`)}</li>
+                                  
                                 </ul>
                                 <a href="tel:4012701681" className={`btn ${ctaStyle} small`} aria-label={`${label} — call us`}>
                                     <FaPhone aria-hidden="true" />
-                                    {t(`services.${id}.cta`)}
+                                    {t(`careercard.${id}.cta`)}
                                 </a>
                             </div>
                         ))}
@@ -48,4 +51,4 @@ function ServicesHome() {
     );
 }
 
-export default ServicesHome;
+export default Carrer;

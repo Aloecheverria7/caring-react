@@ -999,7 +999,7 @@ body {
 
 .careers-join-text h2 {
   color: var(--blue);
-  font-size: 26px;
+  font-size: 40px;
   margin-bottom: 14px;
 }
 
@@ -1012,7 +1012,7 @@ body {
 
 .careers-positions-title {
   color: var(--blue);
-  font-size: 18px;
+  font-size: 30px;
   margin-bottom: 14px;
 }
 
@@ -1026,7 +1026,7 @@ body {
   align-items: center;
   gap: 10px;
   padding: 8px 0;
-  font-size: 15px;
+  font-size: 20px;
   color: #333;
   border-bottom: 1px solid #f0f0f0;
 }

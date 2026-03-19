@@ -1,129 +1,168 @@
 {
     "navbar": {
         "home": "Inicio",
-        "aboutUs": "Quiénes Somos",
+        "aboutUs": "Sobre Nosotros",
         "services": "Servicios",
-        "partners": "Nuestros Socios",
+        "partners": "Nuestros Socios de Confianza",
         "careers": "Empleos",
         "contact": "Contacto",
-        "callUs": "Llámanos"
+        "callUs": "Llámanos Ahora"
     },
     "hero": {
-        "title": "Cuidado Profesional y",
-        "titleHighlight": "Compasivo en el Hogar",
+        "title": "Profesional y Compasivo",
+        "titleHighlight": "Cuidado en el Hogar",
         "titleSuffix": "en Rhode Island",
-        "subtitle": "Atención personalizada en casa, adaptada a tus necesidades, sirviendo a las comunidades locales de Rhode Island.",
+        "subtitle": "Cuidado personalizado en el hogar adaptado a tus necesidades, sirviendo a comunidades locales en todo Rhode Island.",
         "ctaGetStarted": "Comenzar",
         "ctaServices": "Nuestros Servicios",
         "introTitle": "Conoce a Nuestros Cuidadores",
-        "introText": "Nuestro equipo de profesionales dedicados es seleccionado cuidadosamente por su experiencia y profunda compasión. Cada cuidador en Caring Path está comprometido a brindar una atención respetuosa y de alta calidad que honre la dignidad e independencia de tus seres queridos en todo Rhode Island."
+        "introText": "Nuestro equipo de profesionales dedicados es cuidadosamente seleccionado por su experiencia y profunda vocación de servicio. Cada cuidador en Caring Path está comprometido a brindar atención respetuosa y de alta calidad, preservando la dignidad e independencia de sus seres queridos en todo Rhode Island."
     },
     "intro": {
         "heading": "Bienvenido a Caring Path",
         "headingHighlight": "Servicios de Salud en el Hogar",
-        "description": "Tu socio de confianza para el cuidado en el hogar en Rhode Island. Brindamos atención integral, compasiva y personalizada para personas mayores e individuos con discapacidades, para que vivan cómoda e independientemente."
+        "description": "Tu aliado confiable para el cuidado en el hogar en Rhode Island. Ofrecemos atención integral, compasiva y personalizada para adultos mayores y personas con discapacidades, permitiéndoles vivir con comodidad e independencia."
+    },
+    "introcareercard": {
+        "heading": "¿Listo para marcar la diferencia?",
+        "headingHighlight": "Aplica en línea hoy o llámanos para saber más sobre cómo unirte a nuestro equipo",
+        "description": "Tu aliado confiable para el cuidado en el hogar en Rhode Island. Ofrecemos atención integral, compasiva y personalizada para adultos mayores y personas con discapacidades, permitiéndoles vivir con comodidad e independencia."
+    },
+    "careercard": {
+        "carreerup": {
+            "title": "Paso 1",
+            "description": "Envía tu solicitud",
+            "cta": "Aplicar Ahora",
+            "footerdescription": "Todos los servicios CNA son supervisados por enfermeras licenciadas con evaluaciones cada 60-90 días de acuerdo con las regulaciones de Rhode Island."
+        },
+        "carrerdoc": {
+            "title": "Paso 2",
+            "description": "Sube certificaciones y registros médicos",
+            "cta": "Subir Documentos",
+            "footerdescription": "Ideal para clientes que necesitan ayuda en el hogar pero no requieren cuidado personal."
+        },
+        "rn": {
+            "title": "Supervisión de Enfermería (RN)",
+            "description": "Atención de calidad en la que puedes confiar, respaldada por enfermeras registradas.",
+            "highlight1": "Supervisión regular de RN",
+            "highlight2": "Supervisión de cuidadores",
+            "highlight3": "Evaluaciones obligatorias del cliente",
+            "highlight4": "Planes de cuidado personalizados",
+            "highlight5": "Control de calidad continuo",
+            "cta": "Solicitar Consulta",
+            "footerdescription": "Atención de calidad respaldada por supervisión profesional de enfermería."
+        }
     },
     "services": {
         "cna": {
             "title": "Servicios de Asistente CNA",
-            "description": "Servicios de cuidado personal por asistentes de enfermería certificados (CNA).",
-            "highlight1": "Asistencia con baño y aseo",
-            "highlight2": "Apoyo en movilidad y traslados",
-            "highlight3": "Monitoreo de signos vitales",
-            "cta": "Llamar ahora"
+            "description": "Servicios de cuidado personal brindados por asistentes de enfermería certificados (CNA).",
+            "highlight1": "Preparación de comidas y asistencia al comer",
+            "highlight2": "Recordatorios de medicamentos",
+            "highlight3": "Limpieza ligera y lavandería",
+            "highlight4": "Compras en supermercado o farmacia",
+            "highlight5": "Compañía y supervisión de seguridad",
+            "cta": "Llamar Ahora",
+            "footerdescription": "Todos los servicios CNA son supervisados por enfermeras licenciadas con evaluaciones cada 60-90 días de acuerdo con las regulaciones de Rhode Island."
         },
         "homemaker": {
             "title": "Servicios del Hogar",
-            "description": "Tareas del hogar, preparación de comidas y compañía.",
-            "highlight1": "Limpieza ligera del hogar",
-            "highlight2": "Preparación de comidas",
-            "highlight3": "Transporte y diligencias",
-            "cta": "(401) 270-1681"
+            "description": "Apoyo doméstico para mantener un hogar limpio y seguro.",
+            "highlight1": "Limpieza ligera",
+            "highlight2": "Lavandería y cambio de ropa de cama",
+            "highlight3": "Preparación de comidas",
+            "highlight4": "Mandados y compras",
+            "highlight5": "Mantenimiento de un hogar limpio y seguro",
+            "cta": "(401) 270-1681",
+            "footerdescription": "Ideal para clientes que necesitan ayuda en el hogar pero no requieren cuidado personal."
         },
         "rn": {
             "title": "Supervisión de Enfermería (RN)",
-            "description": "Gestión del cuidado por enfermeras registradas.",
-            "highlight1": "Manejo de medicamentos",
-            "highlight2": "Cuidado de heridas",
-            "highlight3": "Coordinación del plan de cuidado",
-            "cta": "Solicitar Consulta"
+            "description": "Atención de calidad en la que puedes confiar, respaldada por enfermeras registradas.",
+            "highlight1": "Supervisión regular de RN",
+            "highlight2": "Supervisión de cuidadores",
+            "highlight3": "Evaluaciones obligatorias del cliente",
+            "highlight4": "Planes de cuidado personalizados",
+            "highlight5": "Control de calidad continuo",
+            "cta": "Solicitar Consulta",
+            "footerdescription": "Atención de calidad respaldada por supervisión profesional de enfermería."
         }
     },
     "servicesPage": {
         "heroTitle": "Nuestros Servicios",
-        "heroSubtitle": "Servicios de salud en el hogar integrales y personalizados para adultos mayores e individuos con discapacidades en Rhode Island."
+        "heroSubtitle": "Servicios integrales y personalizados de salud en el hogar para adultos mayores y personas con discapacidades en todo Rhode Island."
     },
     "cta": {
-        "text": "para saber más y agendar una consulta gratuita.",
+        "text": "para obtener más información y programar una consulta gratuita.",
         "callToday": "Llámanos hoy",
         "button": "Solicitar Consulta"
     },
     "about": {
-        "heroTitle": "Acerca de Caring Path",
+        "heroTitle": "Sobre Caring Path",
         "heroHighlight": "Servicios de Salud en el Hogar",
-        "heroSubtitle": "Ayudamos a las familias a sentirse seguras de elegir atención profesional y compasiva en Rhode Island.",
+        "heroSubtitle": "Ayudando a las familias a sentirse seguras en su elección de un cuidado compasivo y profesional en Rhode Island.",
         "missionTitle": "Nuestra Misión",
         "valuesTitle": "Valores",
-        "missionText": "Estamos dedicados a brindar cuidado compasivo y personalizado en el hogar, que mejore la independencia, dignidad y calidad de vida de adultos mayores e individuos en todo Rhode Island.",
-        "whyTitle": "Por Qué las Familias",
+        "missionText": "Nos dedicamos a brindar atención personalizada y compasiva en el hogar que mejora la independencia, dignidad y calidad de vida de adultos mayores y personas en Rhode Island.",
+        "whyTitle": "Por qué las familias",
         "whyHighlight": "Nos Eligen",
-        "feature1": "Compromiso con la Dignidad",
-        "feature2": "Promoción de la Independencia",
-        "feature3": "Personal Compasivo y Profesional",
-        "feature4": "Sirviendo a Toda Rhode Island",
-        "ctaCall": "Llamar (401) 270-1681",
-        "ctaConsult": "Solicitar Consulta Gratuita"
+        "feature1": "Licenciados y en cumplimiento estatal",
+        "feature2": "Planes de cuidado personalizados",
+        "feature3": "Personal compasivo y profesional",
+        "feature4": "Atendiendo todas las comunidades de Rhode Island",
+        "ctaCall": "Llamar al (401) 270-1681",
+        "ctaConsult": "Solicitar Consulta Gratis"
     },
     "partners": {
         "heroTitle": "Nuestros Socios de Confianza",
-        "heroSubtitle": "En Caring Path Home Health Services, trabajamos estrechamente con organizaciones de confianza para garantizar que nuestros clientes reciban atención integral, coordinada y de alta calidad más allá de los servicios básicos en el hogar.",
+        "heroSubtitle": "En Caring Path Home Health Services, trabajamos estrechamente con organizaciones confiables para garantizar que nuestros clientes reciban atención integral, coordinada y de alta calidad más allá de los servicios básicos en el hogar.",
         "p1": {
             "name": "Core Bridge Alliance",
             "tagline": "Apoyo Integral",
             "companyLabel": "Caring Path Home Health Services",
-            "desc1": "Caring Path Home Health Services se ha asociado con Core Bridge Alliance para fortalecer y ampliar nuestros servicios de cuidado. A través de esta alianza, los clientes obtienen acceso a programas de asistencia alimentaria, apoyo especializado y recursos comunitarios.",
-            "desc2": "Esta colaboración nos permite ofrecer servicios de navegación y coordinación personalizados para abordar necesidades adicionales y promover el bienestar a largo plazo."
+            "desc1": "Caring Path Home Health Services se ha asociado con Core Bridge Alliance para fortalecer y ampliar nuestros servicios de atención. A través de esta colaboración, los clientes tienen acceso a programas de asistencia alimentaria, apoyo especializado y recursos comunitarios.",
+            "desc2": "Esta colaboración nos permite ofrecer servicios personalizados de orientación y coordinación para cubrir necesidades adicionales y promover el bienestar a largo plazo."
         },
         "p2": {
             "name": "Avangelina’s Cleaning Services",
-            "tagline": "Un Hogar Limpio Es el Mejor Comienzo",
-            "desc1": "También colaboramos con Avangelina’s Cleaning Services para brindar apoyo de limpieza profunda cuando sea necesario, especialmente antes de que comiencen los servicios de cuidado.",
-            "desc2": "Esto garantiza un ambiente del hogar seguro, cómodo y saludable para nuestros clientes."
+            "tagline": "Un Hogar Limpio es el Mejor Comienzo",
+            "desc1": "También colaboramos con Avangelina’s Cleaning Services para brindar servicios de limpieza profunda cuando sea necesario, especialmente antes de iniciar el cuidado.",
+            "desc2": "Esto garantiza un entorno seguro, cómodo y saludable para nuestros clientes."
         },
-        "commitment": "En Caring Path, seguimos plenamente comprometidos a brindar atención compasiva, personalizada y digna. Nuestras alianzas existen para mejorar, no reemplazar, la calidad del cuidado que brindamos cada día.",
+        "commitment": "En Caring Path, mantenemos nuestro firme compromiso de brindar atención compasiva, personalizada y digna. Nuestras alianzas existen para complementar, no reemplazar, la calidad del cuidado que ofrecemos cada día.",
         "ctaCall": "Llámanos",
-        "ctaConsult": "Solicitar Consulta Gratuita"
+        "ctaConsult": "Solicitar Consulta Gratis"
     },
     "careers": {
-        "heroTitle": "Empleos en",
+        "heroTitle": "Carreras en",
         "heroHighlight": "Caring Path Services",
-        "heroSubtitle": "¿Eres un profesional compasivo y dedicado listo para marcar la diferencia? Únete a Caring Path y trabaja con supervisión de enfermería (RN) para brindar el mejor cuidado.",
+        "heroSubtitle": "¿Eres un profesional compasivo y dedicado listo para marcar la diferencia? Únete a Caring Path Home Health Services y trabaja bajo supervisión de enfermería para brindar la mejor atención.",
         "joinTitle": "Únete a Nuestro Equipo Profesional",
-        "joinText": "Buscamos profesionales compasivos. Si eres un cuidador dedicado, te queremos en nuestro equipo.",
-        "openPositions": "Posiciones Abiertas",
+        "joinText": "Buscamos profesionales con vocación de servicio. Si eres un cuidador dedicado, queremos que formes parte de nuestro equipo.",
+        "openPositions": "Vacantes Disponibles",
         "job_cna": "Asistente de Enfermería Certificado (CNA)",
-        "job_homemaker": "Asistente del Hogar",
-        "job_rn": "Enfermera Registrada (RN) - Supervisión",
-        "callCta": "Llamar (401) 270-1681",
-        "formTitle": "Aplica Ahora",
+        "job_homemaker": "Personal de Apoyo en el Hogar",
+        "job_rn": "Enfermero/a Registrado (RN) - Supervisión",
+        "callCta": "Llamar al (401) 270-1681",
+        "formTitle": "Aplicar Ahora",
         "formName": "Nombre",
         "formEmail": "Correo Electrónico",
         "formPhone": "Teléfono",
-        "formMessage": "Breve Carta de Presentación / Mensaje",
-        "formSubmit": "Enviar Aplicación",
-        "successMessage": "¡Gracias! Revisaremos tu aplicación pronto.",
+        "formMessage": "Carta de Presentación / Mensaje",
+        "formSubmit": "Enviar Solicitud",
+        "successMessage": "¡Gracias! Revisaremos tu solicitud pronto.",
         "benefit1": "Pago Competitivo",
-        "benefit2": "Horario Flexible",
-        "benefit3": "Apoyo de Supervisión de RN",
+        "benefit2": "Horarios Flexibles",
+        "benefit3": "Apoyo con Supervisión RN",
         "benefit4": "Trabajo Gratificante"
     },
     "contact": {
         "heroTitle": "Contáctanos",
-        "heroSubtitle": "Estamos aquí para ayudarte. Comunícate con Caring Path Home Health Services para agendar una consulta gratuita en el hogar.",
+        "heroSubtitle": "Estamos aquí para ayudarte. Comunícate con Caring Path Home Health Services para programar una consulta gratuita en el hogar.",
         "callTitle": "Llámanos Hoy",
-        "bullet1": "Cuidado Confiable en el Hogar",
-        "bullet2": "Consulta Inicial Gratuita",
-        "bullet3": "Sirviendo a Toda Rhode Island",
+        "bullet1": "Cuidado confiable en el hogar",
+        "bullet2": "Consulta inicial gratuita",
+        "bullet3": "Atendemos todo Rhode Island",
         "formTitle": "Ponte en Contacto",
         "formName": "Nombre",
         "formEmail": "Correo Electrónico",
@@ -131,10 +170,10 @@
         "formMessage": "Mensaje",
         "formSubmit": "Enviar Mensaje",
         "hours": "Lun–Vie: 8am–6pm | Sáb: 9am–2pm",
-        "successMessage": "¡Gracias! Nos pondremos en contacto contigo pronto."
+        "successMessage": "¡Gracias! Nos pondremos en contacto pronto."
     },
     "footer": {
-        "aboutText": "Brindamos atención compasiva y personalizada en el hogar que mejora la independencia y la calidad de vida de nuestros clientes en todo Rhode Island.",
+        "aboutText": "Brindamos atención compasiva y personalizada en el hogar que mejora la independencia y calidad de vida de nuestros clientes en todo Rhode Island.",
         "quickLinks": "Enlaces Rápidos",
         "rightsReserved": "Todos los derechos reservados."
     }
