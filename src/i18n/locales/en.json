@@ -139,6 +139,29 @@
         "ctaCall": "Call Us",
         "ctaConsult": "Request Free Consultation"
     },
+
+      "evaluation": {
+        "heroTitle": "Our Trusted Partners",
+        "heroSubtitle": "At Caring Path Home Health Services, we work closely with trusted organizations to ensure our clients receive comprehensive, coordinated, and high-quality care beyond basic home services.",
+        "chap": {
+            "name": "CHAP Seal of Accreditation - Home Care",
+            "tagline": "Issued by CHAP | Community Health Accreditation Partner",
+            "companyLabel": "Caring Path Home Health Services",
+            "desc1": "CHAP Accreditation demonstrates this organization meets the industry’s highest nationally recognized Home Care standards. The rigorous evaluation by CHAP focuses on structure and function, quality of services and products, human and financial resources and long-term viability. Adherence to CHAP’s Standards leads to better quality care.",
+            "desc2": "This collaboration allows us to offer personalized navigation and coordination services to address additional needs and promote long-term well-being."
+        },
+        "p2": {
+            "name": "Avangelina’s Cleaning Services",
+            "tagline": "A Clean Home Is the Best Start",
+            "desc1": "We also collaborate with Avangelina’s Cleaning Services to provide deep cleaning support when needed, especially before care services begin.",
+            "desc2": "This ensures a safe, comfortable, and healthy home environment for our clients."
+        },
+        "commitment": "At Caring Path, we remain fully committed to providing compassionate, personalized, and dignified care. Our partnerships exist to enhance – not replace – the quality of care we deliver every day.",
+        "ctaCall": "Call Us",
+        "ctaConsult": "Request Free Consultation"
+    },
+
+
     "careers": {
         "heroTitle": "Careers at",
         "heroHighlight": "Caring Path Services",

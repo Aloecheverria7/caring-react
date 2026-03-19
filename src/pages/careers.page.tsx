@@ -1,13 +1,13 @@
 import { useTranslation } from 'react-i18next';
 import careersPhoto from '../assets/careers-photo.png';
-import servicesBg from '../assets/services-bg.png';
+//import servicesBg from '../assets/services-bg.png';
 import { useState, type FormEvent } from 'react';
 import {
     FaMoneyBillWave, FaCalendarAlt, FaGraduationCap, FaHeart,
     FaPhone, FaCheck, FaPaperPlane
 } from 'react-icons/fa';
 import type { IconType } from 'react-icons';
-import AboutFeatures from '../components/about-features.component';
+//import AboutFeatures from '../components/about-features.component';
 import Carrer from '../components/upload-career.component';
 const benefits: { Icon: IconType; key: string }[] = [
     { Icon: FaMoneyBillWave, key: 'benefit1' },
