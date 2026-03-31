@@ -1,7 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import { MdPhone } from 'react-icons/md';
 import { Link } from 'react-router-dom';
-import partnerLogo from '../assets/avangelinas.png';
+import partnerLogo1 from '../assets/avangelinas.png';
+import partnerLogo2 from '../assets/core.png';
 
 function PartnersPage() {
     const { t } = useTranslation();
@@ -24,8 +25,8 @@ function PartnersPage() {
                             {t('partners.p1.name')} <span className="partner-tagline">— {t('partners.p1.tagline')}</span>
                         </h3>
                         <div className='partner-card-row'>
-                            <div className="partner-logo-box">
-                                <span>CORE BRIDGE<br />ALLIANCE</span>
+                             <div className="partner-logo-box">
+                                  <img src={partnerLogo2} alt="Avangelina's Cleaning Services logo" />
                             </div>
                             <div className="partner-card-content">
                                 <p>{t('partners.p1.desc1')}</p>
@@ -45,7 +46,7 @@ function PartnersPage() {
                                 <p>{t('partners.p2.desc2')}</p>
                             </div>
                             <div className="partner-logo-box">
-                                  <img src={partnerLogo} alt="Avangelina's Cleaning Services logo" />
+                                  <img src={partnerLogo1} alt="Avangelina's Cleaning Services logo" />
                             </div>
                         </div>
                     </div>

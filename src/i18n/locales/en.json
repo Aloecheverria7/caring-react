@@ -23,14 +23,12 @@
         "headingHighlight": "Home Health Services",
         "description": "Your trusted partner for quality home care in Rhode Island. We provide comprehensive, compassionate, and personalized in-home care for seniors and individuals with disabilities so they live comfortably and independently."
     },
-
-
     "introcareercard": {
         "heading": "Ready to make a difference?",
         "headingHighlight": "Apply online today or call us to learn more about joining our team",
         "description": "Your trusted partner for quality home care in Rhode Island. We provide comprehensive, compassionate, and personalized in-home care for seniors and individuals with disabilities so they live comfortably and independently."
     },
-      "careercard": {
+    "careercard": {
         "carreerup": {
             "title": "Step 1",
             "description": "Submit your application",
@@ -40,10 +38,14 @@
         "carrerdoc": {
             "title": "Step 2",
             "description": "Upload Certifications & Medical Records",
-           
             "cta": "Upload Documents",
             "footerdescription": "Ideal for clients who need help at home but do not require personal care."
         },
+        "download": {
+    "title": "Download Application Form",
+    "description": "Get our application form and complete it at your convenience.",
+    "cta": "Download Now"
+  },
         "rn": {
             "title": "RN Supervision",
             "description": "Quality care you can trustm backed by registered nurses.",
@@ -56,9 +58,6 @@
             "footerdescription": "Quality care you can trust, backed by professional nursing supervision."
         }
     },
-
-
-
     "services": {
         "cna": {
             "title": "CNA Assistant Services",
@@ -103,13 +102,13 @@
         "callToday": "Call us today",
         "button": "Request Consultation"
     },
+    
     "about": {
         "heroTitle": "About Caring Path",
         "heroHighlight": "Home Health Services",
         "heroSubtitle": "Helping families feel confident in their choice for compassionate, professional care in Rhode Island.",
         "missionTitle": "Our Mission",
-        "valuesTitle": "Values",
-        "missionText": "We are dedicated to providing compassionate, personalized in-home care that enhances the independence, dignity, and quality of life for seniors and individuals across Rhode Island.",
+        "missionText": "Our mission is to provide compassionate, personalized in-home care that helps families feel confident and secure in their choice, while enhancing the independence, dignity, and quality of life of those we serve.",
         "whyTitle": "Why Families",
         "whyHighlight": "Choose Us",
         "feature1": "Licensed &  State Compilant",
@@ -117,7 +116,15 @@
         "feature3": "Compassionate & Professional Staff",
         "feature4": "Serving All Rhode Island Communities",
         "ctaCall": "Call (401) 270-1681",
-        "ctaConsult": "Request Free Consultation"
+        "ctaConsult": "Request Free Consultation",
+        "visionTitle": "Our Vision",
+        "visionText": "Our vision is to be a trusted leader in home care, recognized for building lasting relationships with families and delivering care that inspires confidence, peace of mind, and exceptional quality of life.",
+        "valuesTitle": "Our Values",
+        "value1": "Trust – We build strong, honest relationships with every family we serve.",
+        "value2": "Compassion – We care with empathy, kindness, and genuine understanding.",
+        "value3": "Reliability – Families can depend on us for consistent, high-quality care.",
+        "value4": "Integrity – We act with transparency and uphold the highest ethical standards.",
+        "value5": "Excellence – We are committed to delivering outstanding care every day."
     },
     "partners": {
         "heroTitle": "Our Trusted Partners",
@@ -139,8 +146,7 @@
         "ctaCall": "Call Us",
         "ctaConsult": "Request Free Consultation"
     },
-
-      "evaluation": {
+    "evaluation": {
         "heroTitle": "Our Trusted Partners",
         "heroSubtitle": "At Caring Path Home Health Services, we work closely with trusted organizations to ensure our clients receive comprehensive, coordinated, and high-quality care beyond basic home services.",
         "chap": {
@@ -160,9 +166,12 @@
         "ctaCall": "Call Us",
         "ctaConsult": "Request Free Consultation"
     },
-
-
     "careers": {
+        "download": {
+    "title": "Download Application Form",
+    "description": "Get our application form and complete it at your convenience.",
+    "cta": "Download Now"
+  },
         "heroTitle": "Careers at",
         "heroHighlight": "Caring Path Services",
         "heroSubtitle": "Are you a compassionate, dedicated professional ready to make a difference? Join Caring Path Home Health Services. Work alongside RN supervision to provide the best care.",

@@ -98,21 +98,33 @@
         "button": "Solicitar Consulta"
     },
     "about": {
-        "heroTitle": "Sobre Caring Path",
-        "heroHighlight": "Servicios de Salud en el Hogar",
-        "heroSubtitle": "Ayudando a las familias a sentirse seguras en su elección de un cuidado compasivo y profesional en Rhode Island.",
-        "missionTitle": "Nuestra Misión",
-        "valuesTitle": "Valores",
-        "missionText": "Nos dedicamos a brindar atención personalizada y compasiva en el hogar que mejora la independencia, dignidad y calidad de vida de adultos mayores y personas en Rhode Island.",
-        "whyTitle": "Por qué las familias",
-        "whyHighlight": "Nos Eligen",
-        "feature1": "Licenciados y en cumplimiento estatal",
-        "feature2": "Planes de cuidado personalizados",
-        "feature3": "Personal compasivo y profesional",
-        "feature4": "Atendiendo todas las comunidades de Rhode Island",
-        "ctaCall": "Llamar al (401) 270-1681",
-        "ctaConsult": "Solicitar Consulta Gratis"
-    },
+    "heroTitle": "Sobre Caring Path",
+    "heroHighlight": "Servicios de Salud en el Hogar",
+    "heroSubtitle": "Ayudando a las familias a sentirse seguras y confiadas al elegir un cuidado compasivo y profesional en Rhode Island.",
+
+    "missionTitle": "Nuestra Misión",
+    "missionText": "Nuestra misión es brindar atención domiciliaria compasiva y personalizada que permita a las familias sentirse seguras y confiadas en su elección, mientras promovemos la independencia, dignidad y calidad de vida de quienes atendemos.",
+
+    "whyTitle": "Por Qué las Familias",
+    "whyHighlight": "Nos Eligen",
+    "feature1": "Licenciados y en cumplimiento con las normativas estatales",
+    "feature2": "Planes de cuidado personalizados",
+    "feature3": "Personal compasivo y profesional",
+    "feature4": "Atendiendo a todas las comunidades de Rhode Island",
+
+    "ctaCall": "Llamar al (401) 270-1681",
+    "ctaConsult": "Solicitar consulta gratuita",
+
+    "visionTitle": "Nuestra Visión",
+    "visionText": "Nuestra visión es ser un referente confiable en el cuidado en el hogar, reconocidos por construir relaciones duraderas con las familias y brindar un servicio que inspire confianza, tranquilidad y una excelente calidad de vida.",
+
+    "valuesTitle": "Nuestros Valores",
+    "value1": "Confianza – Construimos relaciones sólidas y honestas con cada familia que atendemos.",
+    "value2": "Compasión – Brindamos cuidado con empatía, amabilidad y comprensión genuina.",
+    "value3": "Confiabilidad – Las familias pueden depender de nosotros para un cuidado constante y de alta calidad.",
+    "value4": "Integridad – Actuamos con transparencia y mantenemos los más altos estándares éticos.",
+    "value5": "Excelencia – Estamos comprometidos a ofrecer un cuidado excepcional cada día."
+  },
     "partners": {
         "heroTitle": "Nuestros Socios de Confianza",
         "heroSubtitle": "En Caring Path Home Health Services, trabajamos estrechamente con organizaciones confiables para garantizar que nuestros clientes reciban atención integral, coordinada y de alta calidad más allá de los servicios básicos en el hogar.",

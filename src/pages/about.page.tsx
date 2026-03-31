@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import aboutPhoto from '../assets/about-photo.png';
 import AboutFeatures from '../components/about-features.component';
+import { Heart, Eye, Users } from "lucide-react";
 
 function AboutPage() {
     const { t } = useTranslation();
@@ -19,14 +20,37 @@ function AboutPage() {
                     <img src={aboutPhoto} alt="A caring nurse sitting with an elderly patient in their home" />
                 </div>
             </section>
+<section className="about-mission" aria-label="Mission, Vision and Values">
+  <div className="container">
 
-            {/* MISSION & VALUES */}
-            <section className="about-mission" aria-label="Our Mission and Values">
-                <div className="container">
-                    <h2>{t('about.missionTitle')} <span>& {t('about.valuesTitle')}</span></h2>
-                    <p className="about-mission-text">{t('about.missionText')}</p>
-                </div>
-            </section>
+    <div className="about-block">
+      <Heart className="about-icon" />
+      <h2>{t('about.missionTitle')}</h2>
+      <p>{t('about.missionText')}</p>
+    </div>
+   <div className="about-block">
+      <Users className="about-icon" />
+      <h2>{t('about.valuesTitle')}</h2>
+
+      <ul>
+        <li> {t('about.value1')}</li>
+        <li> {t('about.value2')}</li>
+        <li> {t('about.value3')}</li>
+        <li> {t('about.value4')}</li>
+        <li> {t('about.value5')}</li>
+      </ul>
+    </div>
+    <div className="about-block">
+      <Eye className="about-icon" />
+      <h2>{t('about.visionTitle')}</h2>
+      <p>{t('about.visionText')}</p>
+    </div>
+
+ 
+
+  </div>
+</section>
+
 
             <AboutFeatures />
         </>
