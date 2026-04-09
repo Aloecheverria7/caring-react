@@ -8,8 +8,8 @@ function HomePage() {
     return (
         <>
             <Hero />
-            <HeroIntro />
             <Intro />
+            <HeroIntro />
             <ServicesHome />
             <AboutFeatures />
         </>

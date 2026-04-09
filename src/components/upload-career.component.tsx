@@ -31,9 +31,9 @@ function Carrer() {
                     <img src={servicesBg} alt="Providence Rhode Island skyline" className="services-bg-img" />
 
                     <div className="services-cards-home">
-                        {serviceKeys.map(({ id, Icon, label, ctaStyle }) => {
+                        {serviceKeys.map(({ id, Icon, ctaStyle }) => {
 
-                            const isCert = id === "certifications"; // 👈 define si es de certificaciones
+                            const isCert = id === "certifications";
                             const isDownload = id === "download";
                             return (
                                 <div key={id} className="service-card-home">
@@ -43,10 +43,6 @@ function Carrer() {
 
                                     <h3>{t(`careercard.${id}.title`)}</h3>
                                     <p>{t(`careercard.${id}.description`)}</p>
-
-                                    <ul className="service-highlights" aria-label={`${label} highlights`}>
-                                        <li>{t(`careercard.${id}.description`)}</li>
-                                    </ul>
 
                                     {isDownload ? (
                                         <a

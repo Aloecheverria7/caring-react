@@ -33,7 +33,7 @@
             "title": "Step 1",
             "description": "Submit your application",
             "cta": "Apply Now",
-            "footerdescription": "All CNA services are suupervised by licensed nurses with evaluations every 60-90 days in accordance with Rhode Island regulations."
+            "footerdescription": "All CNA services are supervised by licensed nurses with evaluations every 60-90 days in accordance with Rhode Island regulations."
         },
         "carrerdoc": {
             "title": "Step 2",
@@ -48,10 +48,10 @@
   },
         "rn": {
             "title": "RN Supervision",
-            "description": "Quality care you can trustm backed by registered nurses.",
-            "highlight1": "Regular RJ supervision",
+            "description": "Quality care you can trust, backed by registered nurses.",
+            "highlight1": "Regular RN supervision",
             "highlight2": "Caregiver oversight",
-            "highlight3": "Mandatory client assesments ",
+            "highlight3": "Mandatory client assessments",
             "highlight4": "Personalized care plans",
             "highlight5": "Ongoing quality control",
             "cta": "Request Consultation",
@@ -64,29 +64,29 @@
             "description": "Personal care services by certified nursing assistants (CNAs).",
             "highlight1": "Meal preparation and feeding",
             "highlight2": "Medication reminders",
-            "highlight3": "Ligth housekeeping & Laundry",
+            "highlight3": "Light housekeeping & Laundry and linen",
             "highlight4": "Grocery or pharmacy shopping",
             "highlight5": "Companionship & safety supervision",
             "cta": "Call Now",
-            "footerdescription": "All CNA services are suupervised by licensed nurses with evaluations every 60-90 days in accordance with Rhode Island regulations."
+            "footerdescription": "All CNA services are supervised by licensed nurses with evaluations every 60-90 days in accordance with Rhode Island regulations."
         },
         "homemaker": {
             "title": "Homemaker Services",
-            "description": "Hosusehold help to maintain safe and clean home.",
+            "description": "Household help to maintain a safe and clean home.",
             "highlight1": "Light housekeeping",
-            "highlight2": "Laundry and lien changes",
+            "highlight2": "Laundry and linen changes",
             "highlight3": "Meal preparation",
             "highlight4": "Errands and shopping",
-            "highlight5": "Maintaining a safe clean home",
+            "highlight5": "Maintaining a safe and clean home",
             "cta": "(401) 270-1681",
             "footerdescription": "Ideal for clients who need help at home but do not require personal care."
         },
         "rn": {
             "title": "RN Supervision",
-            "description": "Quality care you can trustm backed by registered nurses.",
-            "highlight1": "Regular RJ supervision",
+            "description": "Quality care you can trust, backed by registered nurses.",
+            "highlight1": "Regular RN supervision",
             "highlight2": "Caregiver oversight",
-            "highlight3": "Mandatory client assesments ",
+            "highlight3": "Mandatory client assessments",
             "highlight4": "Personalized care plans",
             "highlight5": "Ongoing quality control",
             "cta": "Request Consultation",
@@ -104,21 +104,27 @@
     },
     
     "about": {
-        "heroTitle": "About Caring Path",
-        "heroHighlight": "Home Health Services",
+        "heroTitle": "About Us",
+        "heroHighlight": "Caring Path",
         "heroSubtitle": "Helping families feel confident in their choice for compassionate, professional care in Rhode Island.",
-        "missionTitle": "Our Mission",
-        "missionText": "Our mission is to provide compassionate, personalized in-home care that helps families feel confident and secure in their choice, while enhancing the independence, dignity, and quality of life of those we serve.",
+        "tagline": "At Caring Path we believe care should feel like home.",
+        "para1": "We are committed to becoming the gold standard in home care—not just through the services we provide, but through the way we treat every person we touch. For us, excellence begins from within. That's why we invest deeply in our caregivers, offering them the support, benefits, and respect they deserve. When our team feels valued, secure, and empowered, they are able to give their very best—every single day.",
+        "break1": "But what truly sets Caring Path apart is the heart behind our care.",
+        "para2": "We don't see clients as cases or schedules—we see them as family. Every individual we serve is treated with dignity, compassion, and genuine love. We honor their stories, respect their independence, and walk alongside them with patience and kindness.",
+        "missionStatement": "Our mission is simple, yet powerful: to create a path where both caregivers and clients feel seen, supported, and cared for.",
+        "closing": "Because at Caring Path, care isn't just what we do—it's who we are.",
         "whyTitle": "Why Families",
         "whyHighlight": "Choose Us",
-        "feature1": "Licensed &  State Compilant",
+        "feature1": "Licensed & State Compliant",
         "feature2": "Personalized Care Plans",
         "feature3": "Compassionate & Professional Staff",
         "feature4": "Serving All Rhode Island Communities",
         "ctaCall": "Call (401) 270-1681",
         "ctaConsult": "Request Free Consultation",
+        "missionTitle": "Our Mission",
+        "missionText": "To provide compassionate, personalized in-home care that helps families feel confident and secure in their choice, while enhancing the independence, dignity, and quality of life of those we serve.",
         "visionTitle": "Our Vision",
-        "visionText": "Our vision is to be a trusted leader in home care, recognized for building lasting relationships with families and delivering care that inspires confidence, peace of mind, and exceptional quality of life.",
+        "visionText": "To be a trusted leader in home care, recognized for building lasting relationships with families and delivering care that inspires confidence, peace of mind, and exceptional quality of life.",
         "valuesTitle": "Our Values",
         "value1": "Trust – We build strong, honest relationships with every family we serve.",
         "value2": "Compassion – We care with empathy, kindness, and genuine understanding.",
@@ -150,7 +156,7 @@
         "heroTitle": "Our Trusted Partners",
         "heroSubtitle": "At Caring Path Home Health Services, we work closely with trusted organizations to ensure our clients receive comprehensive, coordinated, and high-quality care beyond basic home services.",
         "chap": {
-            "name": "CHAP Seal of Accreditation - Home Care",
+            "name": "CHAP Seal of Accreditation",
             "tagline": "Issued by CHAP | Community Health Accreditation Partner",
             "companyLabel": "Caring Path Home Health Services",
             "desc1": "CHAP Accreditation demonstrates this organization meets the industry’s highest nationally recognized Home Care standards. The rigorous evaluation by CHAP focuses on structure and function, quality of services and products, human and financial resources and long-term viability. Adherence to CHAP’s Standards leads to better quality care.",
@@ -214,5 +220,23 @@
         "aboutText": "Providing compassionate, personalized in-home care that enhances the independence and quality of life for our clients throughout Rhode Island.",
         "quickLinks": "Quick Links",
         "rightsReserved": "All rights reserved."
+    },
+    "caregivers": {
+        "katherine": {
+            "name": "Katherine Rosario",
+            "role": "CNA",
+            "bio1": "Meet Katherine—one of our dedicated CNA professionals at CaringPath.",
+            "bio2": "Katherine began her journey with us as a temporary CNA and, through hard work and commitment, earned her permanent license. Since then, she has continued to go above and beyond for every client she serves.",
+            "bio3": "Her clients truly love her for her dedication, compassion, and constant support. Katherine adapts seamlessly to changes in her clients' needs, always attentive and proactive in reporting their condition—giving families peace of mind and confidence in her care.",
+            "bio4": "Katherine doesn't just show up—she stands on care, every single day. 💛"
+        },
+        "marchelis": {
+            "name": "Marchelis Figueroa",
+            "role": "Homemaker",
+            "bio1": "Meet Marchelis—our very first team member and a true foundation of CaringPath.",
+            "bio2": "With over 10 years of experience, Marchelis has been with us since the beginning, always available, always willing, and always leading with heart. She serves both English and Spanish-speaking communities with compassion, making every client feel respected, comfortable, and cared for.",
+            "bio3": "Her work ethic and dedication are constantly praised, but what truly sets her apart is the love she puts into everything she does.",
+            "bio4": "Marchelis doesn't just provide care—she defines it."
+        }
     }
 }

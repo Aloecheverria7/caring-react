@@ -98,33 +98,34 @@
         "button": "Solicitar Consulta"
     },
     "about": {
-    "heroTitle": "Sobre Caring Path",
-    "heroHighlight": "Servicios de Salud en el Hogar",
-    "heroSubtitle": "Ayudando a las familias a sentirse seguras y confiadas al elegir un cuidado compasivo y profesional en Rhode Island.",
-
-    "missionTitle": "Nuestra Misión",
-    "missionText": "Nuestra misión es brindar atención domiciliaria compasiva y personalizada que permita a las familias sentirse seguras y confiadas en su elección, mientras promovemos la independencia, dignidad y calidad de vida de quienes atendemos.",
-
-    "whyTitle": "Por Qué las Familias",
-    "whyHighlight": "Nos Eligen",
-    "feature1": "Licenciados y en cumplimiento con las normativas estatales",
-    "feature2": "Planes de cuidado personalizados",
-    "feature3": "Personal compasivo y profesional",
-    "feature4": "Atendiendo a todas las comunidades de Rhode Island",
-
-    "ctaCall": "Llamar al (401) 270-1681",
-    "ctaConsult": "Solicitar consulta gratuita",
-
-    "visionTitle": "Nuestra Visión",
-    "visionText": "Nuestra visión es ser un referente confiable en el cuidado en el hogar, reconocidos por construir relaciones duraderas con las familias y brindar un servicio que inspire confianza, tranquilidad y una excelente calidad de vida.",
-
-    "valuesTitle": "Nuestros Valores",
-    "value1": "Confianza – Construimos relaciones sólidas y honestas con cada familia que atendemos.",
-    "value2": "Compasión – Brindamos cuidado con empatía, amabilidad y comprensión genuina.",
-    "value3": "Confiabilidad – Las familias pueden depender de nosotros para un cuidado constante y de alta calidad.",
-    "value4": "Integridad – Actuamos con transparencia y mantenemos los más altos estándares éticos.",
-    "value5": "Excelencia – Estamos comprometidos a ofrecer un cuidado excepcional cada día."
-  },
+        "heroTitle": "Sobre Nosotros",
+        "heroHighlight": "Caring Path",
+        "heroSubtitle": "Ayudando a las familias a sentirse seguras y confiadas al elegir un cuidado compasivo y profesional en Rhode Island.",
+        "tagline": "En Caring Path creemos que el cuidado debe sentirse como en casa.",
+        "para1": "Estamos comprometidos a convertirnos en el estándar de oro en el cuidado en el hogar—no solo a través de los servicios que brindamos, sino a través de la forma en que tratamos a cada persona que tocamos. Para nosotros, la excelencia comienza desde adentro. Por eso invertimos profundamente en nuestros cuidadores, ofreciéndoles el apoyo, los beneficios y el respeto que merecen. Cuando nuestro equipo se siente valorado, seguro y empoderado, puede dar lo mejor de sí mismo—cada día.",
+        "break1": "Pero lo que verdaderamente distingue a Caring Path es el corazón detrás de nuestro cuidado.",
+        "para2": "No vemos a los clientes como casos o horarios—los vemos como familia. Cada persona a quien servimos es tratada con dignidad, compasión y amor genuino. Honramos sus historias, respetamos su independencia y caminamos junto a ellos con paciencia y bondad.",
+        "missionStatement": "Nuestra misión es simple, pero poderosa: crear un camino donde tanto los cuidadores como los clientes se sientan vistos, apoyados y cuidados.",
+        "closing": "Porque en Caring Path, el cuidado no es solo lo que hacemos—es quiénes somos.",
+        "whyTitle": "Por Qué las Familias",
+        "whyHighlight": "Nos Eligen",
+        "feature1": "Licenciados y en cumplimiento con las normativas estatales",
+        "feature2": "Planes de cuidado personalizados",
+        "feature3": "Personal compasivo y profesional",
+        "feature4": "Atendiendo a todas las comunidades de Rhode Island",
+        "ctaCall": "Llamar al (401) 270-1681",
+        "ctaConsult": "Solicitar consulta gratuita",
+        "missionTitle": "Nuestra Misión",
+        "missionText": "Brindar atención domiciliaria compasiva y personalizada que permita a las familias sentirse seguras y confiadas en su elección, promoviendo la independencia, dignidad y calidad de vida de quienes atendemos.",
+        "visionTitle": "Nuestra Visión",
+        "visionText": "Ser un referente confiable en el cuidado en el hogar, reconocidos por construir relaciones duraderas con las familias y brindar un servicio que inspire confianza, tranquilidad y una excelente calidad de vida.",
+        "valuesTitle": "Nuestros Valores",
+        "value1": "Confianza – Construimos relaciones sólidas y honestas con cada familia que atendemos.",
+        "value2": "Compasión – Brindamos cuidado con empatía, amabilidad y comprensión genuina.",
+        "value3": "Confiabilidad – Las familias pueden depender de nosotros para un cuidado constante y de alta calidad.",
+        "value4": "Integridad – Actuamos con transparencia y mantenemos los más altos estándares éticos.",
+        "value5": "Excelencia – Estamos comprometidos a ofrecer un cuidado excepcional cada día."
+    },
     "partners": {
         "heroTitle": "Nuestros Socios de Confianza",
         "heroSubtitle": "En Caring Path Home Health Services, trabajamos estrechamente con organizaciones confiables para garantizar que nuestros clientes reciban atención integral, coordinada y de alta calidad más allá de los servicios básicos en el hogar.",
@@ -188,5 +189,23 @@
         "aboutText": "Brindamos atención compasiva y personalizada en el hogar que mejora la independencia y calidad de vida de nuestros clientes en todo Rhode Island.",
         "quickLinks": "Enlaces Rápidos",
         "rightsReserved": "Todos los derechos reservados."
+    },
+    "caregivers": {
+        "katherine": {
+            "name": "Katherine Rosario",
+            "role": "CNA",
+            "bio1": "Conoce a Katherine—una de nuestras dedicadas profesionales CNA en CaringPath.",
+            "bio2": "Katherine comenzó su camino con nosotros como CNA temporal y, con esfuerzo y compromiso, obtuvo su licencia permanente. Desde entonces, ha seguido yendo más allá para cada cliente que atiende.",
+            "bio3": "Sus clientes la aman por su dedicación, compasión y apoyo constante. Katherine se adapta sin dificultad a los cambios en las necesidades de sus clientes, siempre atenta y proactiva al informar sobre su condición, brindando tranquilidad y confianza a las familias.",
+            "bio4": "Katherine no solo se presenta—ella vive el cuidado, cada día. 💛"
+        },
+        "marchelis": {
+            "name": "Marchelis Figueroa",
+            "role": "Cuidadora del Hogar",
+            "bio1": "Conoce a Marchelis—nuestra primera integrante del equipo y un verdadero pilar de CaringPath.",
+            "bio2": "Con más de 10 años de experiencia, Marchelis ha estado con nosotros desde el principio, siempre disponible, siempre dispuesta y siempre liderando con el corazón. Atiende a comunidades de habla inglesa y española con compasión, haciendo que cada cliente se sienta respetado, cómodo y bien cuidado.",
+            "bio3": "Su ética de trabajo y dedicación son constantemente elogiadas, pero lo que verdaderamente la distingue es el amor que pone en todo lo que hace.",
+            "bio4": "Marchelis no solo brinda cuidado—ella lo define."
+        }
     }
 }

@@ -62,8 +62,6 @@ function CareersPage() {
             </ul>
             <div className="careers-extra">
 
-  <h3 className="careers-extra-title">Join Us</h3>
-
   <div className="careers-extra-grid">
 
     {/* REQUIREMENTS */}
@@ -97,7 +95,9 @@ function CareersPage() {
         <li>Competitive pay</li>
         <li>Sick Time</li>
         <li>Vacation Time</li>
-        <li>And more</li>
+        <li>401K</li>
+        <li>Health Insurance</li>
+        <li>Gas Reimbursement</li>
       </ul>
     </div>
 

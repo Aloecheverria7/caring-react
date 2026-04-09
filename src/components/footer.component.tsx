@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { NavLink } from 'react-router-dom';
 import logo from '../assets/logo.webp';
-import { FaMapMarkerAlt, FaPhone, FaFax } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaPhone, FaFax, FaWhatsapp } from 'react-icons/fa';
 
 function Footer() {
     const { t } = useTranslation();
@@ -44,10 +44,14 @@ function Footer() {
                     <div className="footer-contact-item">
                         <FaPhone aria-hidden="true" className="footer-icon" />
                         <div>
-                            <p><a href="tel:4012701681">Tel: 401-270-1681</a></p>
-                            <p><a href="tel:4015377196">Tel: 401-537-7196</a></p>
-                            <p><a href="tel:4013475924">Cell: 401-347-5924</a></p>
+                            <p><a href="tel:4012701681">Line 1: 401-270-1681</a></p>
+                            <p><a href="tel:4015377196">Line 2: 401-537-7196</a></p>
                         </div>
+                    </div>
+
+                    <div className="footer-contact-item">
+                        <FaWhatsapp aria-hidden="true" className="footer-icon" />
+                        <p><a href="https://wa.me/14012557641">WhatsApp: 401-255-7641</a></p>
                     </div>
 
                     <div className="footer-contact-item">
