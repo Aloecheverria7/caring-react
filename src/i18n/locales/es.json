@@ -41,6 +41,11 @@
             "cta": "Subir Documentos",
             "footerdescription": "Ideal para clientes que necesitan ayuda en el hogar pero no requieren cuidado personal."
         },
+        "download": {
+            "title": "Descargar Formulario de Solicitud",
+            "description": "Obtén nuestro formulario de solicitud y complétalo cuando te sea conveniente.",
+            "cta": "Descargar Ahora"
+        },
         "rn": {
             "title": "Supervisión de Enfermería (RN)",
             "description": "Atención de calidad en la que puedes confiar, respaldada por enfermeras registradas.",
@@ -96,6 +101,9 @@
         "text": "para obtener más información y programar una consulta gratuita.",
         "callToday": "Llámanos hoy",
         "button": "Solicitar Consulta"
+    },
+    "serviceAreas": {
+        "title": "Sirviendo con Orgullo a las Comunidades de Rhode Island"
     },
     "about": {
         "heroTitle": "Sobre Nosotros",

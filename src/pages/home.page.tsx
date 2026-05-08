@@ -3,6 +3,7 @@ import Intro from '../components/intro.component';
 import ServicesHome from '../components/services-home.component';
 import AboutFeatures from '../components/about-features.component';
 import HeroIntro from '../components/hero-intro.component';
+import ServiceAreas from '../components/service-areas.component';
 
 function HomePage() {
     return (
@@ -10,6 +11,7 @@ function HomePage() {
             <Hero />
             <Intro />
             <HeroIntro />
+            <ServiceAreas />
             <ServicesHome />
             <AboutFeatures />
         </>

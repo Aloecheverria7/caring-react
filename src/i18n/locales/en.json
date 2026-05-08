@@ -102,6 +102,9 @@
         "callToday": "Call us today",
         "button": "Request Consultation"
     },
+    "serviceAreas": {
+        "title": "Proudly Serving Rhode Island Communities"
+    },
     
     "about": {
         "heroTitle": "About Us",

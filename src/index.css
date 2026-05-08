@@ -1389,6 +1389,68 @@ body {
   font-weight: 600;
 }
 
+.careers-download-card {
+  margin-top: 36px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px 32px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.careers-download-icon {
+  width: 64px;
+  height: 64px;
+  min-width: 64px;
+  border-radius: 50%;
+  background: var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.careers-download-text {
+  flex: 1;
+  text-align: left;
+}
+
+.careers-download-text h3 {
+  color: var(--blue);
+  font-size: 20px;
+  margin: 0 0 6px;
+}
+
+.careers-download-text p {
+  color: var(--text);
+  font-size: 15px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.careers-download-card .btn {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .careers-download-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 24px;
+    gap: 16px;
+  }
+
+  .careers-download-text {
+    text-align: center;
+  }
+}
+
 /* ===== CONTACT PAGE ===== */
 .contact-hero {
   display: grid;
@@ -2176,5 +2238,56 @@ body {
 @media (max-width: 768px) {
   .careers-extra-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+/* ── SERVICE AREAS BANNER (home page) ─────────────── */
+
+.service-areas-banner {
+  background: linear-gradient(135deg, var(--blue), #162c3a);
+  padding: 50px 0;
+  text-align: center;
+  border-top: 3px solid var(--gold);
+  border-bottom: 3px solid var(--gold);
+}
+
+.service-areas-title {
+  font-size: 30px;
+  color: var(--gold);
+  margin-bottom: 18px;
+  letter-spacing: 0.5px;
+}
+
+.service-areas-locations {
+  font-size: 17px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  line-height: 1.9;
+  margin: 0;
+}
+
+.service-areas-sep {
+  color: var(--gold);
+  margin: 0 12px;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .service-areas-banner {
+    padding: 40px 0;
+  }
+
+  .service-areas-title {
+    font-size: 24px;
+  }
+
+  .service-areas-locations {
+    font-size: 15px;
+    line-height: 2;
+  }
+
+  .service-areas-sep {
+    margin: 0 8px;
   }
 }

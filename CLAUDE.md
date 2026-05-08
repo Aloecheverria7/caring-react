@@ -20,17 +20,19 @@ React 19 + TypeScript SPA built with Vite. React Router v7 handles client-side r
 **Routes:** `/` `/about` `/services` `/partners` `/careers` `/contact`
 
 **Key directories:**
-- `src/components/` — Reusable UI components (navbar, hero, services, footer, etc.)
-- `src/pages/` — One file per route (home, about, services, partners, careers, contact)
+- `src/components/` — Reusable UI components, named `*.component.tsx`
+- `src/pages/` — One file per route, named `*.page.tsx` (home, about, services, partners, careers, contact)
 - `src/i18n/` — i18next setup + `locales/en.json` and `locales/es.json`
 - `src/assets/` — Static images (WebP/PNG)
 - `src/index.css` — All global and component styles (~26KB, no CSS framework)
+
+New files should follow the `*.component.tsx` / `*.page.tsx` suffix convention.
 
 **Styling:** Vanilla CSS only. All styles live in `src/index.css`. No CSS modules, Tailwind, or CSS-in-JS.
 
 ## Internationalization
 
-The app is fully bilingual (English/Spanish). Every user-visible string must have entries in both `src/i18n/locales/en.json` and `src/i18n/locales/es.json`. Language preference is persisted in localStorage. Components use `const { t } = useTranslation()` to access translations.
+The app is fully bilingual (English/Spanish). Every user-visible string must have entries in both `src/i18n/locales/en.json` and `src/i18n/locales/es.json` — the two files are currently out of sync, so when adding or editing keys, mirror them in both locales rather than only the one you're working in. Language preference is persisted in localStorage. Components use `const { t } = useTranslation()` to access translations.
 
 ## Deployment
 

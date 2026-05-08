@@ -3,11 +3,10 @@ import careersPhoto from '../assets/careers-photo.png';
 //import servicesBg from '../assets/services-bg.png';
 import { useState, type FormEvent } from 'react';
 import {
-    FaMoneyBillWave, FaCalendarAlt, FaGraduationCap, FaHeart, FaCheck, FaPaperPlane
+    FaMoneyBillWave, FaCalendarAlt, FaGraduationCap, FaHeart, FaCheck, FaPaperPlane, FaDownload
 } from 'react-icons/fa';
 import type { IconType } from 'react-icons';
 //import AboutFeatures from '../components/about-features.component';
-import Carrer from '../components/upload-career.component';
 const benefits: { Icon: IconType; key: string }[] = [
     { Icon: FaMoneyBillWave, key: 'benefit1' },
     { Icon: FaCalendarAlt, key: 'benefit2' },
@@ -181,7 +180,6 @@ function CareersPage() {
         </div>
     </div>
 </section>
-    <Carrer />  
             {/* BENEFITS */}
             <section className="careers-benefits" aria-label="Employee benefits">
                 <div className="container">
@@ -195,10 +193,27 @@ function CareersPage() {
                             </div>
                         ))}
                     </div>
+
+                    <div className="careers-download-card">
+                        <div className="careers-download-icon" aria-hidden="true">
+                            <FaDownload size={32} color="var(--blue)" />
+                        </div>
+                        <div className="careers-download-text">
+                            <h3>{t('careercard.download.title')}</h3>
+                            <p>{t('careercard.download.description')}</p>
+                        </div>
+                        <a
+                            href="/docs/application-form.docx"
+                            download
+                            className="btn primary"
+                        >
+                            {t('careercard.download.cta')}
+                        </a>
+                    </div>
                 </div>
             </section>
 
-        
+
         </>
     );
 }
