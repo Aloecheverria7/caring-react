@@ -27,6 +27,7 @@ function AboutPage() {
                     <p>{t('about.para1')}</p>
                     <p className="about-break">{t('about.break1')}</p>
                     <p>{t('about.para2')}</p>
+                    <p>{t('about.para3')}</p>
                     <p className="about-mission-stmt">{t('about.missionStatement')}</p>
                     <p className="about-closing">{t('about.closing')}</p>
                 </div>
