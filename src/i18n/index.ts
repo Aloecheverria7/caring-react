@@ -19,7 +19,7 @@ i18n
             escapeValue: false, // React already escapes values
         },
         detection: {
-            order: ['localStorage', 'navigator'],
+            order: ['localStorage'],
             caches: ['localStorage'],
         },
     });
